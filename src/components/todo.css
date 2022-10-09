@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    height: 100vh;
+    width: 100vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 15, 73);
+}
+.child-div{
+    height: 30%;
+    width: 30%;
+     display: flex;
+     align-items: center;
+    flex-direction: column;
+}
+.title{
+    height: 20%;
+    width: 100%;
+     text-align: center;
+     color: aliceblue;
+ }
+.addItems{
+    height: 30%;
+    width: 100%;
+     margin-top: 1rem;
+}
+.input{
+    height: 30%;
+    width: 100%;
+ }
+.addItems input {
+    height: 1.8rem;
+    width: 20rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px ;
+      margin-left: 14%;
+}
+.input i{
+ margin-left: -7%;
+}
+.showItems{
+    height: 20%;
+    width: 70%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+.left{
+    height: 100%;
+    width: 70%;
+     padding: 5px;
+}
+.right{
+    padding: 5px;
+    height: 100%;
+    width: 12%;
+ }
+
+ 
+.remove{
+    height: 18%;
+    width: 33%;
+    margin-top: 10%;
+     padding: 7px;
+     color: aliceblue;
+   background-color: darkcyan;
+   border-radius: 4px;
+   text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .child-div{
+         width: 100%;
+    }
+
+    .addItems input {
+          margin-left: 6%;
+    }
+    .remove{
+        height: 18%;
+        width: 45%;
+        margin-top: 10%;
+         padding: 7px;
+         color: aliceblue;
+       background-color: darkcyan;
+       border-radius: 4px;
+    }
+    
+
+}
